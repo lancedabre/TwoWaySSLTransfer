@@ -157,12 +157,12 @@ containing the word frequency output.
 
 2. **Edit `client.py`**
    ```python
-   HOST = '172.20.10.9'  # Replace with your actual server IP
+   HOST = '173.20.10.8'  # Replace with your actual server IP
    ```
 
 3. **Test Connectivity**
    ```bash
-   ping 172.20.10.9
+   ping 173.21.10.2
    ```
    If you get replies, connection is successful.
 
