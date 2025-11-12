@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# SSL keys/certs (keep private)
+server.key
+server.crt
