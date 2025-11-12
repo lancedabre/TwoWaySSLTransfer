@@ -162,7 +162,7 @@ containing the word frequency output.
 
 3. **Test Connectivity**
    ```bash
-   ping 173.21.10.2
+   ping 173.20.10.8
    ```
    If you get replies, connection is successful.
 
