@@ -1,4 +1,4 @@
-# 🛡️ Secure-Socket-WordCounter
+# 🛡️ TwoWaySSLTransfer
 
 A simple, **secure**, and **cross-platform** Python application for two-way file transfer and text processing using **sockets** and **SSL/TLS**.
 
