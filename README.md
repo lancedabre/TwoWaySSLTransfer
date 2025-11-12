@@ -54,12 +54,6 @@ Client                             Server
 ## etup & Installation
 
 ### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YourUsername/YourRepoName.git
-cd YourRepoName
-```
-
 ---
 
 ### 2. Generate Security Certificates
