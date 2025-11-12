@@ -11,7 +11,7 @@ This project demonstrates a **client-server architecture** where:
 
 ---
 
-## ⚙️ How It Works (Protocol Flow)
+## How It Works (Protocol Flow)
 
 ```
 Client                             Server
@@ -34,16 +34,16 @@ Client                             Server
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🔒 **Secure** — All data encrypted with SSL/TLS.  
-- 🔁 **Two-Way Transfer** — Client-to-server and server-to-client communication.  
-- 🧠 **Simple Protocol** — `[8-byte file size] + [file data]` structure.  
-- 💻 **Cross-Platform** — Tested between macOS (Client) and Windows (Server).  
+- **Secure** — All data encrypted with SSL/TLS.  
+- **Two-Way Transfer** — Client-to-server and server-to-client communication.  
+- **Simple Protocol** — `[8-byte file size] + [file data]` structure.  
+- **Cross-Platform** — Tested between macOS (Client) and Windows (Server).  
 
 ---
 
-## 🧩 Requirements
+## Requirements
 
 - Python **3.x**  
 - Standard libraries: `socket`, `ssl`, `os`, `collections`  
@@ -51,7 +51,7 @@ Client                             Server
 
 ---
 
-## 🏗️ Setup & Installation
+## etup & Installation
 
 ### 1. Clone the Repository
 
@@ -83,7 +83,7 @@ Ensure your `send.txt` file exists in the project folder and ends with a space a
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 You can run this in two modes:
 1. **Localhost (Single Machine)**
@@ -91,7 +91,7 @@ You can run this in two modes:
 
 ---
 
-### 🧪 Localhost Test (Single Machine)
+### Localhost Test (Single Machine)
 
 #### Step 1: Edit `client.py`
 ```python
@@ -180,15 +180,7 @@ containing the word frequency output.
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
-
----
-
-## 🧠 Notes
-
-- Always keep your `server.key` **private**.  
-- The client must **trust** the `server.crt` certificate to establish a secure SSL connection.  
-- You can extend this app to handle multiple clients using `threading` or `asyncio`.
